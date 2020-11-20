@@ -51,24 +51,24 @@ def multiply_matrix(k, l, i, j):
     return P
 
 # Task 1a
-# print("Überprüfung der Funktion is_integer_matrix")
-# M = [[10, 3, 29, 4],[4, 77, 191, 2],[85, 9, 2, 37]]
-# printMatrix(M)
-# print(is_integer_matrix(M))
+print("Überprüfung der Funktion is_integer_matrix")
+M = [[10, 3, 29, 4],[4, 77, 191, 2],[85, 9, 2, 37]]
+printMatrix(M)
+print(is_integer_matrix(M))
 
-# M = [[13, 3.75],[4.0, 2.23],[80, 3]]
-# printMatrix(M)
-# print(is_integer_matrix(M))
+M = [[13, 3.75],[4.0, 2.23],[80, 3]]
+printMatrix(M)
+print(is_integer_matrix(M))
 
-# M = [[13, 3],[4],[80, 3]]
-# printMatrix(M)
-# print(is_integer_matrix(M))
+M = [[13, 3],[4],[80, 3]]
+printMatrix(M)
+print(is_integer_matrix(M))
 
 # Task 1b
-# print("Überprüfung der Funktion generate_matrix")
-# M = generate_matrix(3,4, 1,10)
-# printMatrix(M)
-# print(is_integer_matrix(M))
+print("Überprüfung der Funktion generate_matrix")
+M = generate_matrix(3,4, 1,10)
+printMatrix(M)
+print(is_integer_matrix(M))
 
 
 # print("Überprüfung der Funktion multiply_matrix")
