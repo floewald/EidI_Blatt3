@@ -70,8 +70,15 @@ M = generate_matrix(3,4, 1,10)
 printMatrix(M)
 print(is_integer_matrix(M))
 
-
-# print("Überprüfung der Funktion multiply_matrix")
 P = multiply_matrix(2, 3, 1, 5)
+print("Calculated matrix P: ")
+printMatrix(P)
+
+k = int( input("Please enter an integer for k:\n") )
+l = int( input("Please enter an integer for l:\n") )
+i = int( input("Please enter an integer for i:\n") )
+j = int( input("Please enter an integer for j:\n") )
+
+P = multiply_matrix(k, l, i, j)
 print("Calculated matrix P: ")
 printMatrix(P)
